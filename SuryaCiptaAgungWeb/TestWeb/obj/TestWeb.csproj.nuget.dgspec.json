@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\TestWeb\\TestWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.DataModels\\Test.DataModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.DataModels\\Test.DataModels.csproj",
+        "projectName": "Test.DataModels",
+        "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.DataModels\\Test.DataModels.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.DataModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.Repo\\Test.Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.Repo\\Test.Repo.csproj",
+        "projectName": "Test.Repo",
+        "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.Repo\\Test.Repo.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.Repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.DataModels\\Test.DataModels.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.DataModels\\Test.DataModels.csproj"
+              },
+              "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\Test.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\Test.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\Test.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\Test.ViewModels.csproj",
+        "projectName": "Test.ViewModels",
+        "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\Test.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\TestWeb\\TestWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\TestWeb\\TestWeb.csproj",
+        "projectName": "TestWeb",
+        "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\TestWeb\\TestWeb.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\TestWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.DataModels\\Test.DataModels.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.DataModels\\Test.DataModels.csproj"
+              },
+              "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.Repo\\Test.Repo.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.Repo\\Test.Repo.csproj"
+              },
+              "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\Test.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\Test.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<form id="form" asp-action="Add" asp-controller="Company" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <h6>Company Code</h6>
+                <input type="text" class="form-control form-control-user" id="Code" name="Code" value="@ViewBag.kode" readonly>
+            </div>
+            <div class="mb-2">
+                <div class="form-group">
+                    <h6>Email</h6>
+                    <input type="email" class="form-control form-control-user" id="Email" name="Email" placeholder="Type Email">
+                </div>
+            </div>
+            <div class="mb-2">
+                <div class="form-group">
+                    <h6>Phone</h6>
+                    <input type="text" class="form-control form-control-user" id="Phone" name="Phone" placeholder="Type Phone">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <h6>Company Name</h6>
+                <input type="text" class="form-control form-control-user" id="Name" name="Name" placeholder="Type Company Name">
+            </div>
+            <div class="mb-2">
+                <div class="form-group">
+                    <label for="Address" class="form-label">Address</label>
+                    <textarea class="form-control" id="Address" name="Address" rows="3" placeholder="Type Address"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" id="btn_add">Add</button>
+    </div>
+</form>
+
+<script>
+    $("#form").validate({
+        errorClass: "text-danger",
+        rules: {
+            Email: {
+                required: true,
+                email: true,
+            },
+            Phone: {
+                required: true,
+                digits: true,
+            },
+            Name: {
+                required: true,
+            },
+            Address: {
+                required: true,
+            },
+        },
+        messages: {
+            Email: {
+                required: "Kolom Harus Diisi",
+                email: "Inputan Harus Bertipe Email",
+            },
+            Phone: {
+                required: "Kolom Harus Diisi",
+                digits: "Inputan Harus Berupa Angka",
+            },
+            Name: {
+                required: "Kolom Harus Diisi",
+            },
+            Address: {
+                required: "Kolom Harus Diisi",
+            },
+        },
+        submitHandler: function(form) {
+            var data = $("#form").serialize()
+            var code = $("#Code")
+            $.ajax({
+                type: "post",
+                url: "/Company/Add",
+                data: data,
+                dataType: "json",
+                success: function(respon) {
+                    debugger
+                    if (respon.status == "success") {
+                        alert("Data Saved! New Company has been add with code "+respon.data)
+                        window.location.reload()
+                    } else {
+                        alert.messages("Gagal")
+                    }
+                }
+            })
+        },
+        onSuccess: function(respon) {
+            $("#snackbar").html("<h6>Data Saved!New Company has been add with code @ViewBag.kode</h6>");
+        }
+    })
+</script>

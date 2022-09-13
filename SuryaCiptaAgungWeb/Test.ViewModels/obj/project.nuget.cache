@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kvglC4L1GrMMc6xjVGPXxgS2kPYUKljNOfOnAVxLi/6qD2Qe3m4VOgG0wW1ZshAO+C+Q6wyVo8vpmIOqUX5nPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Documents\\Yanuar\\Surya Cipta Agung\\SuryaCiptaAgungWeb\\Test.ViewModels\\Test.ViewModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.28\\microsoft.aspnetcore.http.features.3.1.28.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.28\\microsoft.extensions.primitives.3.1.28.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines\\4.7.5\\system.io.pipelines.4.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}

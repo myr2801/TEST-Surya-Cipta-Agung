@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+@model Test.ViewModels.VMCompany
+ <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <h6>Company Code</h6>
+                <input type="text" class="form-control form-control-user" id="Code" name="Code" value="@Model.Code" readonly>
+            </div>
+            <div class="mb-2">
+                <div class="form-group">
+                    <h6>Email</h6>
+                    <input type="email" class="form-control form-control-user" id="Email" name="Email" value="@Model.Email">
+                </div>
+            </div>
+            <div class="mb-2">
+                <div class="form-group">
+                    <h6>Phone</h6>
+                    <input type="text" class="form-control form-control-user" id="Phone" name="Phone" value="@Model.Phone">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <h6>Company Name</h6>
+                <input type="text" class="form-control form-control-user" id="Name" name="Name" value="@Model.Name">
+            </div>
+            <div class="mb-2">
+                <div class="form-group">
+                    <label for="Address" class="form-label">Address</label>
+                    <textarea class="form-control" id="Address" name="Address" rows="3" >@Model.Address</textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" id="btn_edit">Edit</button>
+        <a type="button" class="btn btn-warning" asp-action="Index" asp-controller="Company">Cancel</a>
+    </div>

@@ -1,0 +1,10 @@
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\bin\Debug\netcoreapp3.1\Test.ViewModels.deps.json
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\bin\Debug\netcoreapp3.1\Test.ViewModels.dll
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\bin\Debug\netcoreapp3.1\Test.ViewModels.pdb
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\obj\Debug\netcoreapp3.1\Test.ViewModels.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\obj\Debug\netcoreapp3.1\Test.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\obj\Debug\netcoreapp3.1\Test.ViewModels.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\obj\Debug\netcoreapp3.1\Test.ViewModels.AssemblyInfo.cs
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\obj\Debug\netcoreapp3.1\Test.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\obj\Debug\netcoreapp3.1\Test.ViewModels.dll
+C:\Users\user\Documents\Yanuar\Surya Cipta Agung\SuryaCiptaAgungWeb\Test.ViewModels\obj\Debug\netcoreapp3.1\Test.ViewModels.pdb
